@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Header */
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 12% 10%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 80px;
+}
+
+
+/* Section 2 */
+
+.section-two {
+    background-color: #28ECA5;
+    float: left;
+    width: 16.67%;
+}
+
+.section-two img {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+.section-two .desc {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Section 2.2 */
+
+.section-twotwo {
+    background-color: #28ECA5;
+    width: 100%;
+    padding: 20px 20%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Section 3 */
+
+.section-three {
+    float: left;
+    width: 50%;
+}
+
+.section-three img {
+    width: 100%;
+}
+
+.section-three h1 {
+    text-align: left;
+    font-size: 80px;
+    padding: 10px 50px;
+    width: 100%;
+}
+
+.section-three p {
+    text-align: left;
+    font-size: 40px;
+    padding: 10px 50px;
+    width: 100%;
+}
+
+
+/* Section 4 */
+
+.section-four {
+    float: left;
+    width: 25%;
+    background-color: #46A6FC;
+}
+
+.section-four img {
+    width: 100%;
+}
+
+
+/* Section 5 */
+
+.section-five {
+    float: left;
+    padding: 20px 30px;
+    width: 100%;
+    background-color: #46A6FC;
+    text-align: center;
+}
+
+.section-five h1 {
+    font-size: 80px;
+}
+
+.footer {
+    float: left;
+    padding: 20px 30px;
+    width: 100%;
+    color: white;
+}
+
+.footer h1 {
+    float: left;
+    padding: 20px 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.footer p {
+    float: left;
+    padding: 0px 0px;
+    width: 25%;
+    text-align: left;
+    height: 0px;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: black;
+}
+
+#footer h1 {
+    font-size: 20px;
+}
+
+#footer p {
+    font-size: 18px;
+}
+
+
+/* CUIDAO */
+
+
+/* Row */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout */
+
+@media screen and (max-width:700px) {
+    .section-five,
+    .three-column,
+    .four-column {
+        width: 100%;
+    }
+    .header {
+        background-image: url('../img/pexels-photo-3756879.jpeg');
+    }
+    .header h1 {
+        color: white;
+    }
+    .header p {
+        color: white;
+    }
+}
