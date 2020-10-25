@@ -13,13 +13,39 @@ body {
 .header {
     background-image: url('../img/banner-2.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
     padding: 12% 10%;
     text-align: center;
 }
 
 .header h1 {
-    font-size: 80px;
+    font-size: 90px;
+}
+
+
+/* Section 1 */
+
+.section-one {
+    float: left;
+    width: 50%;
+}
+
+.section-one img {
+    width: 100%;
+}
+
+.section-one h1 {
+    text-align: left;
+    font-size: 90px;
+    padding: 10px 50px 0px 50px;
+    width: 100%;
+}
+
+.section-one p {
+    text-align: left;
+    font-size: 45px;
+    padding: 10px 50px;
+    width: 100%;
 }
 
 
@@ -27,30 +53,33 @@ body {
 
 .section-two {
     background-color: #28ECA5;
+    width: 100%;
+    padding: 20px 15% 20px 15%;
     float: left;
-    width: 16.67%;
+    text-align: center;
+    font-size: 46px;
+}
+
+.section-two h1 {
+    padding-bottom: 20px;
+}
+
+.section-two .gal {
+    background-color: #28ECA5;
+    float: left;
+    width: 25%;
 }
 
 .section-two img {
     width: 100%;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 10px;
 }
 
 .section-two .desc {
-    padding: 10px;
+    padding: 0px 10px 15px 0px;
     text-align: center;
-}
-
-
-/* Section 2.2 */
-
-.section-twotwo {
-    background-color: #28ECA5;
-    width: 100%;
-    padding: 20px 20%;
-    float: left;
-    text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -105,6 +134,7 @@ body {
 
 .section-five h1 {
     font-size: 80px;
+    font-weight: bold;
 }
 
 .footer {
